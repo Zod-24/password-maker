@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title> 
+    <meta name="author" content="zod"> 
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="app.js"></script>
+  </head>
+
+  <body> 
+    <div class="container-fluid bd text-center">
+      <h1>password maker</h1>
+      <p>This is my app!</p>
+      <form name="form1">
+        <input type="checkbox" name="inNumber">Number<br>
+        <input type="checkbox" name="inAlphabet">Alphabet<br>
+        <input type="checkbox" name="inSymbol">symbol<br>
+      </form>
+      <p>Setting the number of characters to generate</p>
+      <form name="form2">
+        <input type="number" name="inNumberCount" value="12" max="100"><br>
+      </form>
+      <input type="button" value="Generate" onclick="onBtn();">
+    
+      <br><br>
+      <div id="output"></div>
+    </div>
+  </body>
+</html>
